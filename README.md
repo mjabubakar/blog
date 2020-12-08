@@ -1,6 +1,6 @@
 # Blog
 
-Blog app built with NextJs and [Jafblog API](https://github.com/mjabubakar/blog/).
+Blog app built with NextJs and [Jafblog API](https://github.com/mjabubakar/jafblog/).
 
 ## Getting Started
 
