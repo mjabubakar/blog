@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import fetcher from '../actions';
 import { cookie } from '../pages/dashboard';
-export default function () {
+export default function Header () {
 	const router = useRouter();
 	const pathname = router.pathname;
 	const [state, setState] = useState(false);

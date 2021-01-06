@@ -9,6 +9,7 @@ import Head from 'next/head';
 
 export interface Props {
 	posts: Post[];
+	total?: number;
 }
 const Home = (props: Props) => {
 	const posts = props.posts.map((post, id) => {
